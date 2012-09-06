@@ -1,7 +1,7 @@
 edn
 ===
 
-Extensible Data Notation
+Extensible Data Notation [eed-n]
 
 # Spec
 
