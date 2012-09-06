@@ -133,9 +133,9 @@ A tag _may_ specify more than one format for the tagged element, e.g. both a str
 
 ### #inst "rfc-3339-format"
 
-An instant in time. The tagged element is a string in [RFC-3339](http://www.ietf.org/rfc/rfc3339.txt) format, with the additional enhancement that any component on the right-hand side may be elided, and will default to 0 (1 for month/day).
+An instant in time. The tagged element is a string in [RFC-3339](http://www.ietf.org/rfc/rfc3339.txt) format.
 
-`#inst "1985-04-12T23:20:50.52Z"` or `#inst "1985-04-12"` (midnight UTC)
+`#inst "1985-04-12T23:20:50.52Z"`
 
 ### #uuid "f81d4fae-7dec-11d0-a765-00a0c91e6bf6"
 
