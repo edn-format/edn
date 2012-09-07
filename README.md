@@ -149,7 +149,7 @@ If a `;` character is encountered outside of a string, that character and all su
 
 ## Discard
 
-If the sequence `#_` is encountered outside of a string, the next element should be read and discarded. Note that the next element must still be a readable element. A reader should not call user-supplied tag handlers during the processing of the element to be discarded.
+If the sequence `#_` is encountered outside of a string, symbol or keyword, the next element should be read and discarded. Note that the next element must still be a readable element. A reader should not call user-supplied tag handlers during the processing of the element to be discarded.
 
     [a b #_foo 42] => [a b 42]
 
