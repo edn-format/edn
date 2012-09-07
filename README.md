@@ -143,3 +143,13 @@ An instant in time. The tagged element is a string in [RFC-3339](http://www.ietf
 
 A [UUID](http://en.wikipedia.org/wiki/Universally_unique_identifier). The tagged element is a canonical UUID string representation.
 
+## Comments
+
+If a `;` character is encountered outside of a string, that character and all subsequent characters to the next newline should be ignored.
+
+## Discard
+
+If the sequence `#_` is encountered outside of a string, the next element should be read and discarded. Note that the next element must still be a readable element. A reader should not call user-supplied tag handlers during the processing of the element to be discarded.
+
+    [a b #_foo 42] => [a b 42]
+
