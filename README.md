@@ -3,13 +3,15 @@ edn
 
 extensible data notation [eed-n]
 
-# Spec
+# Rationale
 
 **edn** is an extensible data notation. A superset of **edn** is used by Clojure to represent programs, and it is used by Datomic and other applications as a data transfer format. This spec describes **edn** in isolation from those and other specific use cases, to help facilitate implementation of readers and writers in other languages, and for other uses.
 
-Currently this specification is casual, as we gather feedback from implementors. A more rigorous e.g. BNF will follow.
+**edn** supports a rich set of built-in elements, and the definition of extension elements in terms of the others. Users of data formats without such facilities must rely on either convention or context to convey elements not included in the base set. This greatly complicates application logic, betraying the apparent simplicity of the format. **edn** is simple, yet powerful enough to meet the demands of applications without convention or complex context-sensitive logic.
 
-**edn** supports a rich set of built-in elements, and the definition of extension elements in terms of the others.
+# Spec
+
+Currently this specification is casual, as we gather feedback from implementors. A more rigorous e.g. BNF will follow.
 
 ## General considerations
 
