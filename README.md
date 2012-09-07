@@ -15,6 +15,8 @@ Currently this specification is casual, as we gather feedback from implementors.
 
 ## General considerations
 
+**edn** streams and files should be encoded using [UTF-8](http://en.wikipedia.org/wiki/UTF-8).
+
 Elements are generally separated by whitespace. Whitespace is not otherwise significant, nor need redundant whitespace be preserved during transmissions. Commas `,` are also considered whitespace, other than within strings.
 
 The delimiters `{ } ( ) [ ]` need not be separated from adjacent elements by whitespace.
