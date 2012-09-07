@@ -123,7 +123,7 @@ The semantics of a tag, and the type and interpretation of the tagged element ar
 
     #myapp/Person {:first "Fred" :last "Mertz"}
 
-If a reader encounters a tag for which no handler is registered, the implementation can either report an error, call a designated 'unknown element' handler, or create a well-known generic representation that contains both the tag and the tagged element, as it sees fit.
+If a reader encounters a tag for which no handler is registered, the implementation can either report an error, call a designated 'unknown element' handler, or create a well-known generic representation that contains both the tag and the tagged element, as it sees fit. Note that the non-error strategies allow for readers which are capable of reading any and all **edn**, in spite of being unaware of the details of any extensions present.
 
 ### Rules for tags
 
