@@ -25,11 +25,11 @@ There is no enclosing element at the top level. Thus **edn** is suitable for str
 
 ### nil
 
-The symbol `nil` represents nil, null or nothing.
+`nil` represents nil, null or nothing. It should be read as an object with similar meaning on the target platform.
 
 ### booleans
 
-The symbols `true` and `false` should be mapped to booleans.
+`true` and `false` should be mapped to booleans.
 
 ### strings
 
