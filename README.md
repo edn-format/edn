@@ -256,7 +256,7 @@ following element.
 
 ## equality
 
-Sets and maps have requirements that their keys and elements respectively be unique, which requires
+Sets and maps have requirements that their elements and keys respectively be unique, which requires
 a mechanism for determining when 2 values are not unique (i.e. are equal).
 
 nil, booleans, strings, characters, and symbols are equal to values of the same type with the same
