@@ -269,7 +269,7 @@ or constituents therein, is not advised.
 sequences (lists and vectors) are equal to other sequences whose count of elements is the same, and
 for which each corresponding pair of elements (by ordinal) is equal.
 
-sets are equal if the have the same count of elements and, for every element in one set, an equal
+sets are equal if they have the same count of elements and, for every element in one set, an equal
 element is in the other.
 
 maps are equal if they have the same number of entries, and for every key/value entry in one map an
