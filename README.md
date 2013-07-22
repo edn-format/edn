@@ -102,8 +102,8 @@ where prefixes might be presumed as implicitly included namespaces and elided th
 ### keywords
 
 Keywords are identifiers that typically designate themselves. They are semantically akin to
-enumeration values. Keywords follow the rules of symbols, except they can (and must) begin with a
-colon, e.g. `:fred` or `:my/fred`. If the target platform does not have a keyword type distinct
+enumeration values. Keywords follow the rules of symbols, except they can (and must) begin with
+`:`, e.g. `:fred` or `:my/fred`. If the target platform does not have a keyword type distinct
 from a symbol type, the same type can be used without conflict, since the mandatory leading `:` of
 keywords is disallowed for symbols.
 
