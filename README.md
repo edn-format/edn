@@ -207,10 +207,11 @@ elements appear. Note that sets can be heterogeneous.
 starting with an alphabetic character indicates that _that symbol_ is a **_tag_**. A tag indicates
 the semantic interpretation of _the following element_. It is envisioned that a reader
 implementation will allow clients to register handlers for specific tags. Upon encountering a tag,
-the reader will first read the next element, then pass the result to the corresponding handler for
-further interpretation, and the result of the handler will be the data value yielded by the tag +
-tagged element, i.e. reading a tag and tagged element yields one value. This value is the value to
-be returned to the program and is not further interpreted as **edn** data by the reader.
+the reader will first read the next element (which may itself be or comprise other tagged elements),
+then pass the result to the corresponding handler for further interpretation, and the result of the
+handler will be the data value yielded by the tag + tagged element, i.e. reading a tag and tagged
+element yields one value. This value is the value to be returned to the program and is not further
+interpreted as **edn** data by the reader.
 
 This process will bottom out on elements either understood or built-in. 
 
