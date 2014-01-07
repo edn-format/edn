@@ -86,10 +86,10 @@ followed by whitespace.
 Symbols are used to represent identifiers, and should map to something other than strings, if
 possible.
 
-Symbols begin with a non-numeric character and can contain alphanumeric characters and `. * + ! - _
-? $ % & =`. If `-`, `+` or `.` are the first character, the second character must be non-numeric.
-Additionally, `: #` are allowed as constituent characters in symbols other than as the first
-character.
+Symbols begin with a non-numeric character and can contain alphanumeric characters and `. * + ! - _ ?
+$ % & =`. If `-`, `+` or `.` are the first character, the second character (if any) must be
+non-numeric. Additionally, `: #` are allowed as constituent characters in symbols other than as the
+first character.
 
 `/` has special meaning in symbols. It can be used once only in the middle of a symbol to separate
 the _prefix_ (often a namespace) from the _name_, e.g. `my-namespace/foo`. `/` by itself is a legal
