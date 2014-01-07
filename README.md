@@ -114,8 +114,22 @@ all instances of the same keyword yield the identical object.
 ### integers
 
 Integers consist of the digits `0` - `9`, optionally prefixed by `-` to indicate a negative number, or
-(redundantly) by `+`. 64-bit (signed integer) precision is expected. An integer can have the suffix `N`
-to indicate that arbitrary precision is desired. -0 is a valid integer not distinct from 0.
+(redundantly) by `+`. No integer other than 0 may begin with 0. 64-bit (signed integer) precision is
+expected. An integer can have the suffix `N` to indicate that arbitrary precision is desired. -0 is a
+valid integer not distinct from 0.
+
+    integer
+      int
+      int N
+    digit
+      0-9
+    int
+      digit
+      1-9 digits
+      + digit
+      + 1-9 digits
+      - digit
+      - 1-9 digits
 
 ### floating point numbers
 
@@ -126,6 +140,8 @@ to indicate that arbitrary precision is desired. -0 is a valid integer not disti
       int frac
       int exp
       int frac exp
+    digit
+      0-9
     int
       digit
       1-9 digits
