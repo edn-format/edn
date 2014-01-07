@@ -77,7 +77,7 @@ characters `\t, \r, \n, \\ and \"` are supported.
 
 ### characters
 
-Characters are preceded by a backslash: `\c`. `\newline`, `\return`, `\space` and `\tab` yield the
+Characters are preceded by a backslash: `\c`, `\newline`, `\return`, `\space` and `\tab` yield the
 corresponding characters. Unicode characters are represented with \uNNNN as in Java. Backslash cannot be
 followed by whitespace.
 
