@@ -106,7 +106,7 @@ Keywords are identifiers that typically designate themselves. They are semantica
 enumeration values. Keywords follow the rules of symbols, except they can (and must) begin with a
 colon, e.g. `:fred` or `:my/fred`. If the target platform does not have a keyword type distinct
 from a symbol type, the same type can be used without conflict, since the mandatory leading `:` of
-keywords is disallowed for symbols.
+keywords is disallowed for symbols. Per the symbol rules above, :/ and :/anything are not legal keywords.
 
 If the target platform supports some notion of interning, it is a further semantic of keywords that
 all instances of the same keyword yield the identical object.
