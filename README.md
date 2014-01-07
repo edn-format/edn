@@ -73,12 +73,13 @@ instances of `true` yield that (identical) value, and similarly for `false`.
 ### strings
 
 Strings are enclosed in `"double quotes"`. May span multiple lines. Standard C/Java escape
-characters `\t \r \n` are supported.
+characters `\t, \r, \n, \\ and \"` are supported.
 
 ### characters
 
 Characters are preceded by a backslash: `\c`. `\newline`, `\return`, `\space` and `\tab` yield the
-corresponding characters. Backslash cannot be followed by whitespace.
+corresponding characters. Unicode characters are represented with \uNNNN as in Java. Backslash cannot be
+followed by whitespace.
 
 ### symbols
 
