@@ -87,7 +87,7 @@ Symbols are used to represent identifiers, and should map to something other tha
 possible.
 
 Symbols begin with a non-numeric character and can contain alphanumeric characters and `. * + ! - _ ?
-$ % & =`. If `-`, `+` or `.` are the first character, the second character (if any) must be
+$ % & = < >`. If `-`, `+` or `.` are the first character, the second character (if any) must be
 non-numeric. Additionally, `: #` are allowed as constituent characters in symbols other than as the
 first character.
 
