@@ -73,7 +73,7 @@ instances of `true` yield that (identical) value, and similarly for `false`.
 ### strings
 
 Strings are enclosed in `"double quotes"`. May span multiple lines. Standard C/Java escape
-characters `\t, \r, \n, \\ and \"` are supported.
+characters `\t, \r, \n, \\ and \"` are supported. Unicode escapes \uNNNN and octal escapes \0 to \377 are also supported, as in Java.
 
 ### characters
 
