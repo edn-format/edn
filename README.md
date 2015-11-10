@@ -195,7 +195,7 @@ are parsed as whitespace.
 ### sets
 
 A set is a collection of unique values. Sets are represented by zero or more elements enclosed in
-curly braces preceded by `#` `#{}`. No semantics should be associated with the order in which the
+curly braces preceded by `#` (`#{}`). No semantics should be associated with the order in which the
 elements appear. Note that sets can be heterogeneous.
 
     #{a b [1 2 3]}
