@@ -281,7 +281,7 @@ nil, booleans, strings, characters, and symbols are equal to values of the same 
 **edn** representation.
 
 integers and floating point numbers should be considered equal to values only of the same
-magnitude, _type, and precision_. Comingling numeric types and precision in map/set key/elements,
+magnitude, _type, and precision_. Commingling numeric types and precision in map/set key/elements,
 or constituents therein, is not advised.
 
 sequences (lists and vectors) are equal to other sequences whose count of elements is the same, and
