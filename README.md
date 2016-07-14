@@ -46,7 +46,7 @@ e.g. BNF will follow.
 
 Elements are generally separated by whitespace. Whitespace, other than within strings, is not
 otherwise significant, nor need redundant whitespace be preserved during transmissions. Commas `,`
-are also considered whitespace, other than within strings.
+are also considered whitespace, other than within strings or characters.
 
 The delimiters `{ } ( ) [ ]` need not be separated from adjacent elements by whitespace.
 
