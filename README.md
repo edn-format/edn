@@ -48,7 +48,7 @@ Elements are generally separated by whitespace. Whitespace, other than within st
 otherwise significant, nor need redundant whitespace be preserved during transmissions. Commas `,`
 are also considered whitespace, other than within strings.
 
-The delimiters `{ } ( ) [ ]` need not be separated from adjacent elements by whitespace.
+The delimiters `{ } ( ) [ ] "` need not be separated from adjacent elements by whitespace.
 
 ### # dispatch character
 
