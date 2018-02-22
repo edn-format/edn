@@ -150,6 +150,7 @@ valid integer not distinct from 0.
       - digit
       - 1-9 digits
     frac
+      .
       . digits
     exp
       ex digits
