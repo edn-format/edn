@@ -130,6 +130,9 @@ valid integer not distinct from 0.
       + 1-9 digits
       - digit
       - 1-9 digits
+    digits
+      digit
+      digit digits
 
 ### floating point numbers
 
