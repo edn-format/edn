@@ -78,7 +78,7 @@ characters `\t, \r, \n, \\ and \"` are supported.
 ### characters
 
 Characters are preceded by a backslash: `\c`, `\newline`, `\return`, `\space` and `\tab` yield the
-corresponding characters. Unicode characters are represented with \uNNNN as in Java. Backslash cannot be
+corresponding characters. Unicode characters are represented with \uNNNN [as in Java](https://docs.oracle.com/javase/specs/jls/se17/html/jls-3.html#jls-3.3). Backslash cannot be
 followed by whitespace.
 
 ### symbols
