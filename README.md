@@ -88,7 +88,7 @@ possible.
 
 Symbols begin with a non-numeric character and can contain alphanumeric characters and `. * + ! - _ ?
 $ % & = < >`. If `-`, `+` or `.` are the first character, the second character (if any) must be
-non-numeric. Additionally, `: #` are allowed as constituent characters in symbols other than as the
+non-numeric. Additionally, `: # '` are allowed as constituent characters in symbols other than as the
 first character.
 
 `/` has special meaning in symbols. It can be used once only in the middle of a symbol to separate
